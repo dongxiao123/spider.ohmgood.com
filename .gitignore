@@ -3,3 +3,6 @@
 /vendor
 /spider.ohmgood.com.exe~
 /conf/database.conf
+/tests/storage
+/tests/conf
+/storage/logs/*.log

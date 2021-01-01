@@ -40,5 +40,5 @@ func init() {
 	orm.RegisterDataBase("default", "mysql", userName+":"+pass+"@tcp("+host+":"+port+")/"+dbName+"?charset="+charset+"&loc=Local")
 
 	// register model
-	orm.RegisterModel(new(Job))
+	orm.RegisterModel(new(Job), new(Company))
 }
